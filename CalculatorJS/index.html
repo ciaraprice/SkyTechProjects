@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculator</title>
+</head>
+<body>
+
+	
+	<div class = "calculator">
+		<!-- this is the display fro the sums-->
+		<div id="displayView">0</div>
+		<!-- this is the button keys for the calculator-->
+		<div class="space"></div>
+		<button class="button" onclick="display(7)">7</button>
+		<button class="button" onclick="display(8)">8</button>
+		<button class="button" onclick="display(9)">9</button>
+		<button class="button keyOne" onclick="display('*')">*</button>
+		<button class="button" onclick="display(4)">4</button>
+		<button class="button" onclick="display(5)">5</button>
+		<button class="button" onclick="display(6)">6</button>
+		<button class="button keyTwo" onclick="display('+')">+</button>
+		<button class="button" onclick="display(1)">1</button>
+		<button class="button" onclick="display(2)">2</button>
+		<button class="button" onclick="display(3)">3</button>
+		<button class="button keyThree" onclick="display('-')">-</button>
+		<button class="button" onclick="display(0)">0</button>
+		<button class="button importantKey" onclick="clearDisplay()">C</button>
+		<button class="button importantKey" onclick="calculate()">=</button>
+		<button class="button keyFour" onclick="display('/')">/</button>
+		
+	</div>
+</body>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<script src="script.js"></script>
+</html>
